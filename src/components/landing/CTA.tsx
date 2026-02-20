@@ -24,14 +24,19 @@ const CTA = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Ready to build your <span className="text-gradient font-signature text-5xl md:text-7xl">website?</span>
+          <p className="font-body text-sm uppercase tracking-[0.3em] text-muted-foreground mb-4">
+            Your vision, our engine
+          </p>
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
+            Let's bring your <br className="hidden md:block" />
+            <span className="text-gradient font-signature text-5xl md:text-7xl lg:text-8xl">next idea</span> to life
           </h2>
-          <p className="font-body text-lg text-muted-foreground max-w-xl mx-auto mb-10">
-            Join thousands of creators and businesses who launch stunning sites with AI. Start free — no credit card required.
+          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
+            From concept to launch in minutes — not months. <br className="hidden sm:block" />
+            No code. No complexity. Just results.
           </p>
           <Button variant="hero" size="lg" className="text-base px-10 py-6">
-            Get Started Free <ArrowRight className="ml-1" />
+            Start Building — It's Free <ArrowRight className="ml-1" />
           </Button>
         </motion.div>
       </div>
