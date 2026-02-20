@@ -33,7 +33,7 @@ const Testimonials = () => {
             Testimonials
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-3 text-foreground">
-            What people <span className="text-gradient">say</span>
+            What people <span className="text-gradient font-signature text-5xl md:text-6xl">say</span>
           </h2>
         </motion.div>
 

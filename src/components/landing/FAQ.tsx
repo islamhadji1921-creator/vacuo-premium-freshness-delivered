@@ -43,7 +43,7 @@ const FAQ = () => {
             FAQ
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-3 text-foreground">
-            Got <span className="text-gradient">questions?</span>
+            Got <span className="text-gradient font-signature text-5xl md:text-6xl">questions?</span>
           </h2>
         </motion.div>
 

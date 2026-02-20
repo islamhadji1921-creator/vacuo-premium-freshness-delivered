@@ -47,7 +47,7 @@ const Hero = () => {
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-6">
             <span className="text-foreground">Seal the</span>
             <br />
-            <span className="text-gradient">Freshness.</span>
+            <span className="text-gradient font-signature text-6xl md:text-8xl lg:text-9xl">Freshness.</span>
           </h1>
 
           <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">

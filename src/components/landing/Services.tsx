@@ -38,7 +38,7 @@ const Services = () => {
             What We Offer
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-3 text-foreground">
-            Sealed for <span className="text-gradient">perfection</span>
+            Sealed for <span className="text-gradient font-signature text-5xl md:text-6xl">perfection</span>
           </h2>
         </motion.div>
 
