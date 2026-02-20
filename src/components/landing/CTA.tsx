@@ -4,14 +4,14 @@ import { ArrowRight } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden isolate">
       {/* Background Video */}
       <video
         autoPlay
         muted
         loop
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full w-auto h-auto object-cover"
       >
         <source src="/videos/cta-bg.mp4" type="video/mp4" />
       </video>
