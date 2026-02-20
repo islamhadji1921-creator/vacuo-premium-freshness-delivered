@@ -38,7 +38,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-8"
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-sm font-body text-foreground/80">
+            <span className="text-sm font-body text-foreground">
               AI-powered websites, built in minutes
             </span>
           </motion.div>
