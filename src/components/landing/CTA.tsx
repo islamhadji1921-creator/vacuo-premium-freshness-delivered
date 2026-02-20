@@ -10,9 +10,19 @@ const CTA = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="glass-strong rounded-3xl p-12 md:p-20 text-center relative overflow-hidden"
+          className="rounded-3xl p-12 md:p-20 text-center relative overflow-hidden"
         >
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
+          {/* Background Video */}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover rounded-3xl"
+          >
+            <source src="/videos/cta-bg.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-background/60 rounded-3xl" />
 
           <div className="relative z-10">
             <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
