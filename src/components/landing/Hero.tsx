@@ -40,27 +40,26 @@ const Hero = () => {
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm font-body text-foreground/80">
-              Freshness, vacuum-sealed & delivered
+              AI-powered websites, built in minutes
             </span>
           </motion.div>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-6">
-            <span className="text-foreground">Seal the</span>
+            <span className="text-foreground">Build with</span>
             <br />
-            <span className="text-gradient font-signature text-6xl md:text-8xl lg:text-9xl">Freshness.</span>
+            <span className="text-gradient font-signature text-6xl md:text-8xl lg:text-9xl">Intelligence.</span>
           </h1>
 
           <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            Premium meals vacuum-sealed at peak freshness. From kitchen to
-            doorstep, every bite tastes like it was just made.
+            Our AI studio designs, codes, and launches stunning websites in minutes — not months. Just describe your vision, and watch it come to life.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="hero" size="lg" className="text-base px-8 py-6">
-              Order Now <ArrowRight className="ml-1" />
+              Start Building <ArrowRight className="ml-1" />
             </Button>
             <Button variant="heroOutline" size="lg" className="text-base px-8 py-6">
-              <Play className="mr-1" /> Watch How It Works
+              <Play className="mr-1" /> See It In Action
             </Button>
           </div>
 
@@ -83,7 +82,7 @@ const Hero = () => {
             </div>
             <div className="text-left">
               <p className="text-sm font-display font-semibold text-foreground">
-                12,000+ happy customers
+                25,000+ websites launched
               </p>
               <div className="flex gap-0.5">
                 {[...Array(5)].map((_, i) => (

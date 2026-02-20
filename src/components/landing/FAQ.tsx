@@ -8,24 +8,24 @@ import {
 
 const faqs = [
   {
-    q: "How long do vacuum-sealed meals stay fresh?",
-    a: "Our meals stay fresh for up to 10 days when stored in the refrigerator, and up to 3 months when frozen. The vacuum seal locks in flavor and nutrients.",
+    q: "How does the AI build my website?",
+    a: "You describe what you want in plain language. Our AI generates the design, layout, and production-ready code — all in real time. You can refine anything with follow-up prompts.",
   },
   {
-    q: "What areas do you deliver to?",
-    a: "We currently deliver across all major metropolitan areas. Enter your zip code at checkout to confirm availability in your area.",
+    q: "Can I use my own domain?",
+    a: "Yes! Connect any custom domain with one click. We handle SSL certificates, DNS configuration, and hosting automatically.",
   },
   {
-    q: "Are the meals suitable for dietary restrictions?",
-    a: "Yes! We offer gluten-free, dairy-free, vegan, keto, and other dietary options. Every meal is clearly labeled with allergen information.",
+    q: "What tech stack do you use?",
+    a: "Every site is built with React, TypeScript, and Tailwind CSS — modern, maintainable, and blazing fast. You can export the code anytime.",
   },
   {
-    q: "How do I reheat the meals?",
-    a: "Simply boil the sealed pouch for 5–8 minutes or microwave the contents for 3–4 minutes. Detailed instructions are on every package.",
+    q: "Is there a free plan?",
+    a: "Absolutely. Start building for free with generous daily credits. Upgrade anytime for more capacity, custom domains, and priority support.",
   },
   {
-    q: "Can I skip or cancel my subscription?",
-    a: "Absolutely. You can skip a week, pause, or cancel your subscription anytime from your account dashboard — no commitments.",
+    q: "Can I edit the code myself?",
+    a: "Yes. Export your project to GitHub or edit directly in the built-in code editor. You own 100% of your code, always.",
   },
 ];
 

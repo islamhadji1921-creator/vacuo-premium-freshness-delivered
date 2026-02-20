@@ -4,16 +4,16 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-1">
-            <h3 className="font-display text-2xl font-bold text-gradient mb-3">VACUO</h3>
+            <h3 className="font-display text-2xl font-bold text-gradient mb-3">AXION AI</h3>
             <p className="font-body text-sm text-muted-foreground leading-relaxed">
-              Premium vacuum-sealed meal delivery. Freshness you can taste.
+              AI-powered website studio. Describe it, build it, launch it.
             </p>
           </div>
 
           {[
             {
-              title: "Menu",
-              links: ["Weekly Specials", "Entrées", "Bowls", "Desserts"],
+              title: "Product",
+              links: ["Features", "Pricing", "Templates", "Changelog"],
             },
             {
               title: "Company",
@@ -21,7 +21,7 @@ const Footer = () => {
             },
             {
               title: "Support",
-              links: ["Help Center", "Contact", "Shipping", "Returns"],
+              links: ["Help Center", "Contact", "Documentation", "Status"],
             },
           ].map((col) => (
             <div key={col.title}>
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-muted-foreground">
-            © 2026 VACUO. All rights reserved.
+            © 2026 Axion AI. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Privacy", "Terms", "Cookies"].map((item) => (

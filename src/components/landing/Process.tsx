@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const steps = [
-  { number: "01", title: "Choose Your Meals", description: "Browse our weekly rotating menu of chef-crafted dishes." },
-  { number: "02", title: "We Cook & Seal", description: "Prepared fresh, then vacuum-sealed within minutes of cooking." },
-  { number: "03", title: "Fast Delivery", description: "Temperature-controlled delivery straight to your door." },
-  { number: "04", title: "Heat & Enjoy", description: "Simply reheat. Restaurant quality in under 5 minutes." },
+  { number: "01", title: "Describe Your Vision", description: "Tell our AI what you need — style, pages, features." },
+  { number: "02", title: "AI Designs & Codes", description: "Watch as a full website is generated in real time." },
+  { number: "03", title: "Refine & Customize", description: "Tweak layouts, colors, and copy with simple prompts." },
+  { number: "04", title: "Publish & Launch", description: "Go live in one click with hosting and a custom domain." },
 ];
 
 const Process = () => {
@@ -26,7 +26,6 @@ const Process = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-4 gap-8 relative">
-          {/* Connecting line */}
           <div className="hidden md:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-border" />
 
           {steps.map((step, i) => (

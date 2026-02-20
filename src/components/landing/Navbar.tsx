@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
-const links = ["Menu", "How It Works", "About", "FAQ"];
+const links = ["Services", "How It Works", "About", "FAQ"];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 glass-strong">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="font-display text-xl font-bold text-gradient">
-          VACUO
+          AXION AI
         </a>
 
         {/* Desktop links */}
@@ -27,7 +27,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="hero" size="sm">
-            Order Now
+            Get Started
           </Button>
         </div>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="hero" className="mt-2">
-                Order Now
+                Get Started
               </Button>
             </div>
           </motion.div>

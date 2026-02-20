@@ -3,19 +3,19 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "VACUO completely changed how I eat. The freshness is unreal — it genuinely tastes like it was just cooked.",
+    text: "I described my startup idea and had a polished landing page live in under 3 minutes. This is the future of web design.",
     name: "Sarah M.",
-    role: "Fitness Coach",
+    role: "Startup Founder",
   },
   {
-    text: "I was skeptical about vacuum-sealed meals until I tried VACUO. Now it's the only meal delivery I use.",
+    text: "As a developer, I was blown away by the code quality. Clean React, proper Tailwind — it's like having a senior engineer on speed dial.",
     name: "David K.",
     role: "Software Engineer",
   },
   {
-    text: "The quality and convenience are unmatched. My family loves the variety and I love how easy it is.",
+    text: "We replaced our entire agency workflow with Axion AI. Our clients get sites faster, and we focus on strategy instead of pixels.",
     name: "Priya L.",
-    role: "Working Parent",
+    role: "Creative Director",
   },
 ];
 
