@@ -21,7 +21,7 @@ const Process = () => {
             How It Works
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-3 text-foreground">
-            Four simple <span className="text-gradient">steps</span>
+            Four simple <span className="text-gradient font-signature text-5xl md:text-6xl">steps</span>
           </h2>
         </motion.div>
 

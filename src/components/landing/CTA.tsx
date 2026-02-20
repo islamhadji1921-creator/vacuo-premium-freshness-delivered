@@ -17,7 +17,7 @@ const CTA = () => {
 
           <div className="relative z-10">
             <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-              Ready to taste the <span className="text-gradient">difference?</span>
+              Ready to taste the <span className="text-gradient font-signature text-5xl md:text-7xl">difference?</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-xl mx-auto mb-10">
               Join thousands who've made the switch to vacuum-sealed freshness. Your first order ships free.
