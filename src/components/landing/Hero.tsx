@@ -43,13 +43,13 @@ const Hero = () => {
             </span>
           </motion.div>
 
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-6">
+          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-6" style={{ textShadow: '0 2px 20px hsl(220 20% 4% / 0.6)' }}>
             <span className="text-foreground">Build with</span>
             <br />
             <span className="text-gradient font-signature text-6xl md:text-8xl lg:text-9xl">Intelligence.</span>
           </h1>
 
-          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10" style={{ textShadow: '0 1px 12px hsl(220 20% 4% / 0.5)' }}>
             Our AI studio designs, codes, and launches stunning websites in minutes — not months. Just describe your vision, and watch it come to life.
           </p>
 
