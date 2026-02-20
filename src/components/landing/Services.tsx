@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { Beef, Salad, CakeSlice, Wine } from "lucide-react";
+import { Globe, Paintbrush, Code, Zap } from "lucide-react";
 
 const services = [
   {
-    icon: Beef,
-    title: "Gourmet Entrées",
-    description: "Chef-crafted main courses sealed at peak flavor. From sous vide steaks to slow-braised specialties.",
+    icon: Globe,
+    title: "Full Websites",
+    description: "Landing pages, portfolios, SaaS sites — generated end-to-end from a single prompt.",
   },
   {
-    icon: Salad,
-    title: "Fresh Bowls",
-    description: "Nutrient-packed salads and grain bowls. Ingredients stay crisp and vibrant until opened.",
+    icon: Paintbrush,
+    title: "Custom Design",
+    description: "Unique layouts, fonts, and color palettes tailored to your brand identity automatically.",
   },
   {
-    icon: CakeSlice,
-    title: "Artisan Desserts",
-    description: "Handmade pastries and sweets. Every layer, every texture preserved perfectly.",
+    icon: Code,
+    title: "Clean Code",
+    description: "Production-ready React, Tailwind, and TypeScript — no spaghetti, just elegance.",
   },
   {
-    icon: Wine,
-    title: "Curated Pairings",
-    description: "Beverage pairings and meal kits designed to complement your vacuum-sealed experience.",
+    icon: Zap,
+    title: "Instant Deploy",
+    description: "One click to publish. Your site goes live with hosting, SSL, and a custom domain.",
   },
 ];
 
@@ -38,7 +38,7 @@ const Services = () => {
             What We Offer
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-3 text-foreground">
-            Sealed for <span className="text-gradient font-signature text-5xl md:text-6xl">perfection</span>
+            Built for <span className="text-gradient font-signature text-5xl md:text-6xl">brilliance</span>
           </h2>
         </motion.div>
 
