@@ -15,7 +15,7 @@ const Hero = () => {
         poster=""
       >
         <source
-          src="https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4"
+          src="/videos/bg-video.mp4"
           type="video/mp4"
         />
       </video>
